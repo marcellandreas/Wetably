@@ -22,7 +22,7 @@ export default function Home() {
     { id: "pomodoro", label: "Pomodoro", component: <Pomodoro /> },
   ];
 
-  const [activeTab, setActiveTab] = useState<string>("todo");
+  const [activeTab, setActiveTab] = useState<string>("home");
   const [isFixed, setIsFixed] = useState<boolean>(false);
 
   // Efek untuk memantau scroll

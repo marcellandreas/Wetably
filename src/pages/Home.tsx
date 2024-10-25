@@ -12,7 +12,7 @@ export default function Home() {
               Manage your tasks and notes in one convenient place with Notably.
             </p>
             <a
-              href="/"
+              href="#"
               className="px-6 py-3 bg-white text-indigo-600 rounded-md font-semibold hover:bg-gray-200 transition"
             >
               Get Started for Free
