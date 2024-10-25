@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Notably - Organize Your Tasks and Notes Effortlessly
 
-## Getting Started
+Notably helps you organize your tasks and notes effortlessly. Manage everything in one place!
 
-First, run the development server:
+![alt text](image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Add Notes**: Create new notes with a title and description.
+- **Manage Tasks**: Create, edit, and delete tasks.
+- **Drag-and-Drop**: Move tasks seamlessly between "To-Do," "In Progress," and "Done" columns.
+- **Local Storage**: All notes and tasks are stored in `localStorage`, ensuring data persistence after a page refresh.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: A React framework for building web applications.
+- **TypeScript**: Adds static typing to JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for modern and responsive styling.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/marcellandreas/notably
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Navigate into the project directory:
 
-## Deploy on Vercel
+   ```bash
+   cd notably
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install dependencies (if you want to use vanilla):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+4. Run the application:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Access the application at
+   ```bash
+   http://localhost:3000
+   ```
