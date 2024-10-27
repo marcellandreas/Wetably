@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Notably - Organize Your Tasks and Notes Effortlessly",
+  title: "Wetably - Organize Your Tasks and Notes Effortlessly",
   description:
-    "Notably helps you organize your tasks and notes effortlessly. Manage everything in one place!",
+    "Wetably helps you organize your tasks and notes effortlessly. Manage everything in one place!",
 };
 
 export default function RootLayout({

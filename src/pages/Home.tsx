@@ -9,7 +9,7 @@ export default function Home() {
               Organize Your Life Effortlessly
             </h2>
             <p className="text-lg mb-6 text-gray-700">
-              Manage your tasks and notes in one convenient place with Notably.
+              Manage your tasks and notes in one convenient place with Wetably.
             </p>
             <a
               href="#"
@@ -23,7 +23,7 @@ export default function Home() {
         <section id="features" className="py-16">
           <div className="container mx-auto px-6 text-center">
             <h3 className="text-3xl font-bold text-gray-800 mb-10">
-              Why Choose Notably?
+              Why Choose Wetably?
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-6 bg-white rounded-lg shadow-md">
@@ -59,7 +59,7 @@ export default function Home() {
           <div className="container mx-auto px-6 text-center">
             <h3 className="text-3xl font-bold text-gray-800 mb-10">About Us</h3>
             <p className="text-lg text-gray-700 mb-6">
-              At Notably, we believe that organization is key to success. Our
+              At Wetably, we believe that organization is key to success. Our
               mission is to provide an intuitive and efficient platform for
               individuals and teams to manage their tasks and notes seamlessly.
               We are a passionate team of developers and designers dedicated to

@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 interface Todo {
   id: number | string;
   title: string;

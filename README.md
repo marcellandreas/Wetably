@@ -1,8 +1,6 @@
-# Notably - Organize Your Tasks and Notes Effortlessly
+# Wetably - Organize Your Tasks and Notes Effortlessly
 
-Notably helps you organize your tasks and notes effortlessly. Manage everything in one place!
-
-![alt text](image.png)
+Wetably helps you organize your tasks and notes effortlessly. Manage everything in one place!
 
 ## Key Features
 

@@ -20,7 +20,7 @@ export default function Archive() {
     if (storedNotes) {
       setNotes(JSON.parse(storedNotes));
     }
-  }, []);
+  }, [editingNote]);
 
   const saveNotesToLocalStorage = (notes: Note[]): void => {
     localStorage.setItem("notes", JSON.stringify(notes));

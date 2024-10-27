@@ -13,7 +13,12 @@ interface TodoFormProps {
     description: string;
     status: "To-Do" | "In Progress" | "Done";
   } | null;
-  onEdit?: (todo: any) => void;
+  onEdit?: (todo: {
+    id: number | string;
+    title: string;
+    description: string;
+    status: "To-Do" | "In Progress" | "Done";
+  }) => void;
 }
 
 export default function TodoForm({ onAddTodo, todo, onEdit }: TodoFormProps) {
@@ -41,7 +46,12 @@ export default function TodoForm({ onAddTodo, todo, onEdit }: TodoFormProps) {
     };
 
     // Panggil fungsi edit jika ada, jika tidak, abaikan
-    todo ? onEdit?.(newTodo) : onAddTodo(newTodo);
+    if (todo && onEdit) {
+      onEdit(newTodo);
+    } else {
+      onAddTodo(newTodo);
+    }
+
     setTitle("");
     setDescription("");
   };

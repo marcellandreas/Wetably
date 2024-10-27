@@ -97,7 +97,7 @@ export default function Home() {
 
       <footer className="bg-gray-800 text-gray-200 py-8 mt-auto">
         <div className="container mx-auto px-6 text-center">
-          <p>&copy; {new Date().getFullYear()} Notably. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Wetably. All rights reserved.</p>
         </div>
       </footer>
     </section>
